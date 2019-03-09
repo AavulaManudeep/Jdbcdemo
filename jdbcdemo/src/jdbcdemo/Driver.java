@@ -21,7 +21,7 @@ public class Driver {
 		// TODO Auto-generated method stub
 		try {
 			
-			Connection myConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","manu","nikonD3200");
+			Connection myConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","manu","password");
 			//Statement myStatement = myConnection.createStatement();
 				java.sql.Statement myStatement = myConnection.createStatement();
 //				ResultSet myResultSet = myStatement.executeQuery("Select*from Studentinfo");
